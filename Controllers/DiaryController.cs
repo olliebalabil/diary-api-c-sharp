@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DiaryAPI.Models;
 using DiaryAPI.Data;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace DiaryAPI.Controllers
 {
@@ -27,10 +29,14 @@ namespace DiaryAPI.Controllers
       else
       {
         var entryInDb = _context.Diaries.Find(entry.Id);
-        if (entryInDb == null)
-          return new JsonResult(NotFound());
 
-        entryInDb = entry;
+        if (entryInDb == null)
+        {
+          return new JsonResult(NotFound());
+        }
+        entryInDb.Title = entry.Title;
+        entryInDb.Content = entry.Content;
+        entryInDb.DateTime = entry.DateTime;
 
       }
 
@@ -65,7 +71,7 @@ namespace DiaryAPI.Controllers
     [HttpGet()]
     public JsonResult GetAll()
     {
-      var result = _context.Diaries.ToList();
+      var result = _context.Diaries.OrderByDescending(x => x.DateTime).ToList();
 
       return new JsonResult(Ok(result));
     }

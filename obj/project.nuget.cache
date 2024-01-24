@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6b4hideOwvJr2+zEDw1xfHkecfN2d5lKLWk3gFokI43GiaiuRsCDwREyuvEgROGw/x0m/orUQYyT54iOAfRe7A==",
+  "dgSpecHash": "KJvb2R2938ear241vfAdPT+HXQwkGDMiwm3RJPYetD55GMI6e5xWFhVnl2KmFUoNifGL3aRDYa1jmCBtT2lXmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\obala\\Desktop\\coding-projects\\c#-api-sqlite\\DiaryAPI\\DiaryAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\obala\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.1\\microsoft.aspnetcore.openapi.8.0.1.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
@@ -12,6 +13,7 @@
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.5.0\\microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.5.0\\microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.5.0\\microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "C:\\Users\\obala\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.1\\microsoft.data.sqlite.core.8.0.1.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.1\\microsoft.entityframeworkcore.8.0.1.nupkg.sha512",
     "C:\\Users\\obala\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.1\\microsoft.entityframeworkcore.abstractions.8.0.1.nupkg.sha512",
